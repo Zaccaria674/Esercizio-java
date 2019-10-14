@@ -21,4 +21,16 @@ public class Persona {
         this.titolo=titolo;
         this.professione=professione;
     }
+    
+    public String getInfoPersona(){
+       
+        return name+" "+cognome+" professione "+professione;
+     }
+    
+    public void set_titolo(String titolo){
+        this.titolo=titolo;
+    }
+    public void set_professione(String professione){
+        this.professione=professione;
+    }
 }

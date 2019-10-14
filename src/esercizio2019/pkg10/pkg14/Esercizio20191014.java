@@ -16,6 +16,7 @@ public class Esercizio20191014 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Persona p = new Persona("Zaccaria","machil","nulla","disoccupato");
     }
     
 }
