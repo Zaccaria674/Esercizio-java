@@ -10,5 +10,8 @@ package esercizio2019.pkg10.pkg14;
  * @author casinoo
  */
 public class Persona {
-    
+    private String name;
+    private String cognome;
+    private String titolo;
+    private String professione; 
 }
