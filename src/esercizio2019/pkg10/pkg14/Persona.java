@@ -14,4 +14,11 @@ public class Persona {
     private String cognome;
     private String titolo;
     private String professione; 
+    
+    public Persona(String name,String cognome,String titolo,String professione){
+        this.name=name;
+        this.cognome=cognome;
+        this.titolo=titolo;
+        this.professione=professione;
+    }
 }
