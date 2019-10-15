@@ -12,4 +12,13 @@ package esercizio2019.pkg10.pkg14;
 public class UsaPersona  {
    private String persona1;
    private String persona2;
+   
+   
+   
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Persona persona1 = new Persona("Roberto","Marelli","nulla","insegnante");
+        Persona persona2 = new Persona("Marco","Redaelli");
+    }
+    
 }

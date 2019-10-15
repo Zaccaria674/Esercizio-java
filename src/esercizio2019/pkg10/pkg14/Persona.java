@@ -13,7 +13,7 @@ public class Persona {
     private String name;
     private String cognome;
     private String titolo;
-    private String professione; 
+    private String professione="disoccupato"; 
     
     public Persona(String name,String cognome,String titolo,String professione){
         this.name=name;
@@ -21,16 +21,27 @@ public class Persona {
         this.titolo=titolo;
         this.professione=professione;
     }
+    public Persona(String name,String cognome){
+        this.name=name;
+        this.cognome=cognome;
+    }
     
     public String getInfoPersona(){
        
         return name+" "+cognome+" professione "+professione;
      }
     
-    public void set_titolo(String titolo){
+    public void setTitolo(String titolo){
         this.titolo=titolo;
     }
-    public void set_professione(String professione){
+    public void setProfessione(String professione){
         this.professione=professione;
     }
+    public void Persona1(){
+        
+    }
+    public void Persona2(){
+        
+    }
+    
 }
