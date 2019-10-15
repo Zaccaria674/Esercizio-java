@@ -24,11 +24,12 @@ public class Persona {
     public Persona(String name,String cognome){
         this.name=name;
         this.cognome=cognome;
+        this.titolo="Ing";
     }
     
     public String getInfoPersona(){
        
-        return name+" "+cognome+" professione "+professione;
+        return titolo+"."+name+" "+cognome+" professione "+professione;
      }
     
     public void setTitolo(String titolo){
